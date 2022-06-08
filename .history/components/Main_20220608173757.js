@@ -269,7 +269,7 @@ export default function Main() {
             <br />
             <a
               data-v-54e46119=""
-              href="https://linktr.ee/jhonenmanuel1"
+              href="https://github.com/jhonenmanuel1"
               rel="noopener noreferrer"
               target="_blank"
               className="pl-7  Class flex justify-center align-center Properties"

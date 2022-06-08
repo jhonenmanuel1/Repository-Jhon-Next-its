@@ -9,8 +9,10 @@ export default function Header() {
     <header class="fixed top-0 w-full clearNav z-50">
       <div class="max-w-5xl mx-auto flex flex-wrap p-5 flex-col md:flex-row">
         <div className="flex flex-row items-center justify-between p-3 md:p-1">
-          <a href="/" class="flex text-3xl text-white font-medium mb-4 md:mb-0">
-            Jhon Santiago
+          <a
+            href="/"
+            class="flex text-3xl text-white font-medium mb-4 md:mb-0"
+          >Jhon Santiago
           </a>
           <button
             className="text-white pb-4 cursor-pointer leading-none px-3 py-1 md:hidden outline-none focus:outline-none content-end ml-auto"
@@ -35,6 +37,7 @@ export default function Header() {
               <line x1="3" y1="18" x2="21" y2="18"></line>
             </svg>
           </button>
+          
         </div>
         <div
           className={
@@ -46,12 +49,13 @@ export default function Header() {
             <a class="mr-1 pr-2 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
               About Me
             </a>
-            <a href="project"class="mr-12 md:ml-11 ml-0 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
+            <a class="mr-12 md:ml-11 ml-0 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
               Projects
             </a>
             <a class="mr-5 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
               Photos
             </a>
+            
           </div>
           <a
             href="https://wa.me/+584247287084"
@@ -63,7 +67,9 @@ export default function Header() {
               title="Twitter"
               width="35"
               height="33"
+             
               viewBox="0 0 25 24"
+            
               fill="none"
             >
               <path
@@ -99,16 +105,21 @@ export default function Header() {
               ></path>
             </svg>
           </a>
-          <a href="#footer" rel="noopener noreferrer" className="pl-7 ">
-            <button
-              className="
+          <a
+            data-v-54e46119=""
+            href="https://github.com/jhonenmanuel1"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="pl-7 "
+          >
+           <button 
+           className="
               bg-gradient-to-r from-purple-800 via-pink-600 to-indigo-800
               text-white
               py-1.5 px-5 rounded
-              font-semibold tr04"
-            >
+              font-semibold tr04">
               Contact Me
-            </button>
+           </button>
           </a>
         </div>
       </div>

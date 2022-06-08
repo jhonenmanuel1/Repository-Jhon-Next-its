@@ -9,23 +9,23 @@ export default function Footer() {
           </div>
           <div class="flex align-center justify-center">
             <div className="flex jutify-center align-center space-x-5">
-              <a target="_blank" href="mailto: jhonesantiagor@gmail.com">
+              <a href="mailto: jhonesantiagor@gmail.com">
                 {" "}
                 <img
                   height={"100"}
                   src="images/nicons/gmail.png"
                 ></img> Mail{" "}
               </a>
-              <a href="https://www.linkedin.com/in/jhonsantiago/" target="_blank">
+              <a href="https://www.linkedin.com/in/jhonsantiago/">
                 <img src="images/nicons/linkedin.png"></img> Linkedin{" "}
               </a>
-              <a href="https://wa.me/+584247287084" target="_blank">
-                <img src="images/nicons/whatsapp.png" ></img>WhatsApp
+              <a href="https://wa.me/+584247287084">
+                <img src="images/nicons/whatsapp.png"></img>WhatsApp
               </a>
-              <a href="https://twitter.com/jhonenmsantiago" target="_blank">
+              <a href="https://twitter.com/jhonenmsantiago">
                 <img src="images/nicons/gorjeo.png"></img>Twitter
               </a>
-              <a href="https://github.com/jhonenmanuel1" target="_blank" ><img src="images/nicons/github.png"></img>GitHub</a>
+              <a href="https://github.com/jhonenmanuel1" ><img src="images/nicons/github.png"></img>GitHub</a>
             </div>
           </div>
         </div>

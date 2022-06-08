@@ -259,7 +259,6 @@ export default function Main() {
               Expedición: mar. 2021 · Sin fecha de vencimiento
             </p>
             <a
-            target="_blank"
               className="bg-white mt-"
               href="https://www.efset.org/cert/DTmMwD"
             >
@@ -269,7 +268,7 @@ export default function Main() {
             <br />
             <a
               data-v-54e46119=""
-              href="https://linktr.ee/jhonenmanuel1"
+              href="https://github.com/jhonenmanuel1"
               rel="noopener noreferrer"
               target="_blank"
               className="pl-7  Class flex justify-center align-center Properties"
@@ -304,7 +303,6 @@ export default function Main() {
         >
           <button
             className="
-            
                 bg-white
               text-black
               py-4 px-16 rounded
@@ -312,7 +310,6 @@ export default function Main() {
               mt-10
               ml-10
               "
-              target="_blank"
           >
             Check Linkedin
           </button>

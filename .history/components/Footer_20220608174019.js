@@ -19,7 +19,7 @@ export default function Footer() {
               <a href="https://www.linkedin.com/in/jhonsantiago/" target="_blank">
                 <img src="images/nicons/linkedin.png"></img> Linkedin{" "}
               </a>
-              <a href="https://wa.me/+584247287084" target="_blank">
+              <a href="https://wa.me/+584247287084">
                 <img src="images/nicons/whatsapp.png" ></img>WhatsApp
               </a>
               <a href="https://twitter.com/jhonenmsantiago" target="_blank">

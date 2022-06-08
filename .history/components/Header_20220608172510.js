@@ -46,7 +46,7 @@ export default function Header() {
             <a class="mr-1 pr-2 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
               About Me
             </a>
-            <a href="project"class="mr-12 md:ml-11 ml-0 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
+            <a class="mr-12 md:ml-11 ml-0 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
               Projects
             </a>
             <a class="mr-5 cursor-pointer text-gray-300 hover:text-white font-semibold tr04">
@@ -99,19 +99,30 @@ export default function Header() {
               ></path>
             </svg>
           </a>
-          <a href="#footer" rel="noopener noreferrer" className="pl-7 ">
-            <button
-              className="
-              bg-gradient-to-r from-purple-800 via-pink-600 to-indigo-800
-              text-white
-              py-1.5 px-5 rounded
-              font-semibold tr04"
+          <button
+            type="button"
+            data-modal-toggle="crypto-modal"
+            class="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700"
+          >
+            <svg
+              class="mr-2 w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              Contact Me
-            </button>
-          </a>
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+              ></path>
+            </svg>
+            Contact Me
+          </button>
         </div>
       </div>
+      
     </header>
   );
 }
